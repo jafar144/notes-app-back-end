@@ -1,4 +1,6 @@
-import { Pool } from 'pg';
+import pg from 'pg';
+
+const { Pool } = pg;
 import { nanoid } from 'nanoid';
 import InvariantError from '../../exceptions/InvariantError.js';
 import NotFoundError from '../../exceptions/NotFoundError.js';
